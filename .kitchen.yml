@@ -13,7 +13,7 @@ platforms:
       image_id: ami-02cf39d4fa8e9c764
     transport:
       username: ubuntu
-      ssh_key: /home/nikolay/packer_AWS.pem
+      ssh_key: home/nikolay/AWS_key/aws_key_pair.pem
     
 verifier:
   name: inspec
