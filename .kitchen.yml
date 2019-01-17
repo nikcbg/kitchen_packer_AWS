@@ -10,7 +10,7 @@ provisioner:
 platforms:
   - name: packer_AWS
     driver:
-      image_id: ami-04b8c2001b0bf0c27
+      image_id: ami-0f9cf087c1f27d9b1
     transport:
       username: ubuntu
       ssh_key: home/nikolay/AWS_key/aws_key_pair.pem
