@@ -1,8 +1,8 @@
 ---
 driver:
   name: ec2
-  aws_ssh_key_id: aws_key_pair
   region: us-east-1
+  availability_zone: us-east-1b
 
 provisioner:
   name: dummy
@@ -10,7 +10,7 @@ provisioner:
 platforms:
   - name: packer_AWS
     driver:
-      image_id: ami-0f9cf087c1f27d9b1
+      image_id: ami-079c3b1b38309f925
     transport:
       username: ubuntu
       ssh_key: home/nikolay/AWS_key/aws_key_pair.pem
