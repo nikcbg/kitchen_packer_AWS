@@ -1,7 +1,7 @@
 # kitchen_packer_AWS
 
-### Purpose of the project
-- The repository creates Ubuntu box in AWS with `nginx` installed.
+### Purpose of the repository
+- The repository creates Ubuntu box in AWS with `nginx` installed and test that with `kitchen` framework.
 
 #### List of files in the repository
 
@@ -37,7 +37,7 @@ Command execution	                   |    Command outcome
 us-east-1: ami-0a0b0c0d0e0f0 (note this ami is made up for security purposes)
 
 ```
-- After the AMI is created you need to use the newly created AMI (ami-0a0b0c0d0e0f0) in your `.kitchen.yml` file so your test can oass successfully. 
+- After the AMI is created you need to use the newly created AMI (ami-0a0b0c0d0e0f0) in your `.kitchen.yml` file so your test can pass successfully. 
 
 - Next you need to set up your testing environment.
 
