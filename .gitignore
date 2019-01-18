@@ -1,2 +1,4 @@
-.vagrant/
-*.log
+.bundle/
+.kitchen/
+Gemfile.lock
+vendor/
