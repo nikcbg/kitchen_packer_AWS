@@ -34,10 +34,10 @@ Command execution	                   |    Command outcome
 ```
 ==> Builds finished. The artifacts of successful builds are:
 --> amazon-ebs: AMIs were created:
-us-east-1: ami-0a0b0c0d0e0f0 (note this ami is made up for security purposes)
+us-east-1: ami-079c3b1b38309f925
 
 ```
-- After the AMI is created you need to use the newly created AMI (ami-0a0b0c0d0e0f0) in your `.kitchen.yml` file so your test can pass successfully. 
+- After the AMI is created you need to use the newly created AMI (ami-079c3b1b38309f925) in your `.kitchen.yml` file so your test can pass successfully. 
 
 - Next you need to set up your testing environment.
 
